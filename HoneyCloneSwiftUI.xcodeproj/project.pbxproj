@@ -7,15 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE71812025C87EFA00E9BE0D /* Extension+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE71811F25C87EFA00E9BE0D /* Extension+Color.swift */; };
+		BE71812425C8B37800E9BE0D /* FeaturedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE71812325C8B37800E9BE0D /* FeaturedView.swift */; };
+		BE71812825C8DE6800E9BE0D /* ItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE71812725C8DE6800E9BE0D /* ItemDetailView.swift */; };
+		BE71812B25C8E04500E9BE0D /* StoreDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE71812A25C8E04500E9BE0D /* StoreDetailView.swift */; };
 		BE98E26825C76CB0002603B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE98E26725C76CB0002603B6 /* AppDelegate.swift */; };
 		BE98E26A25C76CB0002603B6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE98E26925C76CB0002603B6 /* SceneDelegate.swift */; };
 		BE98E26C25C76CB0002603B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE98E26B25C76CB0002603B6 /* ContentView.swift */; };
 		BE98E26E25C76CB1002603B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE98E26D25C76CB1002603B6 /* Assets.xcassets */; };
 		BE98E27125C76CB1002603B6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE98E27025C76CB1002603B6 /* Preview Assets.xcassets */; };
 		BE98E27425C76CB1002603B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE98E27225C76CB1002603B6 /* LaunchScreen.storyboard */; };
+		BE98E28025C76D03002603B6 /* StoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE98E27F25C76D03002603B6 /* StoreView.swift */; };
+		BE98E28325C76F9E002603B6 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE98E28225C76F9E002603B6 /* Category.swift */; };
+		BE98E28A25C78B97002603B6 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE98E28925C78B97002603B6 /* ItemCell.swift */; };
+		BE98E28D25C78BB7002603B6 /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE98E28C25C78BB7002603B6 /* ItemView.swift */; };
+		BE98E29725C79399002603B6 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE98E29625C79399002603B6 /* Item.swift */; };
+		BE98E29F25C7B35F002603B6 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE98E29E25C7B35F002603B6 /* SearchBar.swift */; };
+		BE98E2A325C7CEB1002603B6 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE98E2A225C7CEB1002603B6 /* Store.swift */; };
+		BE98E2A625C7D1E4002603B6 /* StoreCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE98E2A525C7D1E4002603B6 /* StoreCell.swift */; };
+		BED36EC825C94291001704C4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED36EC725C94291001704C4 /* HomeView.swift */; };
+		BED36ECD25C94880001704C4 /* TintOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED36ECC25C94880001704C4 /* TintOverlay.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BE71811F25C87EFA00E9BE0D /* Extension+Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Color.swift"; sourceTree = "<group>"; };
+		BE71812325C8B37800E9BE0D /* FeaturedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedView.swift; sourceTree = "<group>"; };
+		BE71812725C8DE6800E9BE0D /* ItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailView.swift; sourceTree = "<group>"; };
+		BE71812A25C8E04500E9BE0D /* StoreDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreDetailView.swift; sourceTree = "<group>"; };
 		BE98E26425C76CB0002603B6 /* HoneyCloneSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoneyCloneSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE98E26725C76CB0002603B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE98E26925C76CB0002603B6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +42,16 @@
 		BE98E27025C76CB1002603B6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BE98E27325C76CB1002603B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE98E27525C76CB1002603B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE98E27F25C76D03002603B6 /* StoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreView.swift; sourceTree = "<group>"; };
+		BE98E28225C76F9E002603B6 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		BE98E28925C78B97002603B6 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		BE98E28C25C78BB7002603B6 /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
+		BE98E29625C79399002603B6 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		BE98E29E25C7B35F002603B6 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		BE98E2A225C7CEB1002603B6 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		BE98E2A525C7D1E4002603B6 /* StoreCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreCell.swift; sourceTree = "<group>"; };
+		BED36EC725C94291001704C4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		BED36ECC25C94880001704C4 /* TintOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TintOverlay.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +65,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BE93AC7125C929770006D0B1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BE98E28225C76F9E002603B6 /* Category.swift */,
+				BE98E29625C79399002603B6 /* Item.swift */,
+				BE98E2A225C7CEB1002603B6 /* Store.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BE93AC7325C929D00006D0B1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BE98E26B25C76CB0002603B6 /* ContentView.swift */,
+				BED36EC725C94291001704C4 /* HomeView.swift */,
+				BE71812325C8B37800E9BE0D /* FeaturedView.swift */,
+				BE98E27F25C76D03002603B6 /* StoreView.swift */,
+				BE71812A25C8E04500E9BE0D /* StoreDetailView.swift */,
+				BE98E28C25C78BB7002603B6 /* ItemView.swift */,
+				BE71812725C8DE6800E9BE0D /* ItemDetailView.swift */,
+				BE98E28925C78B97002603B6 /* ItemCell.swift */,
+				BE98E2A525C7D1E4002603B6 /* StoreCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		BE98E25B25C76CB0002603B6 = {
 			isa = PBXGroup;
 			children = (
@@ -58,7 +112,11 @@
 			children = (
 				BE98E26725C76CB0002603B6 /* AppDelegate.swift */,
 				BE98E26925C76CB0002603B6 /* SceneDelegate.swift */,
-				BE98E26B25C76CB0002603B6 /* ContentView.swift */,
+				BE71811F25C87EFA00E9BE0D /* Extension+Color.swift */,
+				BE98E29E25C7B35F002603B6 /* SearchBar.swift */,
+				BED36ECC25C94880001704C4 /* TintOverlay.swift */,
+				BE93AC7125C929770006D0B1 /* Model */,
+				BE93AC7325C929D00006D0B1 /* View */,
 				BE98E26D25C76CB1002603B6 /* Assets.xcassets */,
 				BE98E27225C76CB1002603B6 /* LaunchScreen.storyboard */,
 				BE98E27525C76CB1002603B6 /* Info.plist */,
@@ -145,9 +203,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE71812825C8DE6800E9BE0D /* ItemDetailView.swift in Sources */,
+				BED36ECD25C94880001704C4 /* TintOverlay.swift in Sources */,
+				BE98E29725C79399002603B6 /* Item.swift in Sources */,
 				BE98E26825C76CB0002603B6 /* AppDelegate.swift in Sources */,
+				BE98E2A325C7CEB1002603B6 /* Store.swift in Sources */,
+				BED36EC825C94291001704C4 /* HomeView.swift in Sources */,
 				BE98E26A25C76CB0002603B6 /* SceneDelegate.swift in Sources */,
+				BE98E28A25C78B97002603B6 /* ItemCell.swift in Sources */,
+				BE98E28025C76D03002603B6 /* StoreView.swift in Sources */,
+				BE98E28325C76F9E002603B6 /* Category.swift in Sources */,
+				BE98E28D25C78BB7002603B6 /* ItemView.swift in Sources */,
+				BE71812025C87EFA00E9BE0D /* Extension+Color.swift in Sources */,
+				BE71812B25C8E04500E9BE0D /* StoreDetailView.swift in Sources */,
+				BE71812425C8B37800E9BE0D /* FeaturedView.swift in Sources */,
 				BE98E26C25C76CB0002603B6 /* ContentView.swift in Sources */,
+				BE98E2A625C7D1E4002603B6 /* StoreCell.swift in Sources */,
+				BE98E29F25C7B35F002603B6 /* SearchBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +363,7 @@
 				DEVELOPMENT_TEAM = B5D85LZH9D;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = HoneyCloneSwiftUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,7 +371,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kismetdevelopment.HoneyCloneSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,6 +385,7 @@
 				DEVELOPMENT_TEAM = B5D85LZH9D;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = HoneyCloneSwiftUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -319,7 +393,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kismetdevelopment.HoneyCloneSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
